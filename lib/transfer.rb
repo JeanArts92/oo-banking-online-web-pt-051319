@@ -15,7 +15,8 @@ class Transfer
     end 
   end 
   
-  def execute_transactions
+  def execute_transactions(receiver)
+    sender
     
   end 
   
