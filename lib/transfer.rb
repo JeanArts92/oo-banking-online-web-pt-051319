@@ -9,7 +9,7 @@ class Transfer
   end 
   
   def valid?
-    if status == "open"
+    if name.status == "open"
     
   end 
   
