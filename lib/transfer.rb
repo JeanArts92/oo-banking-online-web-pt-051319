@@ -25,7 +25,9 @@ class Transfer
     end 
   end
     
-    #binding.pry 
+    def reverse_transfer 
+      
+    end 
   
   
 end
