@@ -19,10 +19,10 @@ class Transfer
   
   def execute_transaction
     binding.pry 
-    if valid? && status == "pending" && sender.balance > amount 
+    if valid? && self.status == "pending" && sender.balance > amount 
       sender.balance -= amount
       receiver.balance += amount
-      sestatus = "complete"
+      self.status = "complete"
     end 
   end
     
