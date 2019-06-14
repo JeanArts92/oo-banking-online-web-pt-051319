@@ -9,7 +9,7 @@ class Transfer
   end 
   
   def valid?
-    if name.status == "open"
+    if @sender
     
   end 
   
