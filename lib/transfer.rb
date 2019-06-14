@@ -22,7 +22,7 @@ class Transfer
     if valid? && status == "pending" && sender.balance > amount 
       sender.balance -= amount
       receiver.balance += amount
-      status = "complete"
+      sestatus = "complete"
     end 
   end
     
