@@ -23,6 +23,6 @@ class Transfer
   end
     
     #binding.pry 
-  end 
+  
   
 end
