@@ -22,7 +22,7 @@ class Transfer
     receiver.balance += amount
   end
     
-    binding.pry 
+    #binding.pry 
   end 
   
 end
