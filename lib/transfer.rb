@@ -11,14 +11,14 @@ class Transfer
   end 
   
   def valid?
-    if @sender.valid? && @receiver.valid?
+    if sender.valid? && receiver.valid?
       true 
     else
     end 
   end 
   
   def execute_transaction
-    if valid? && 
+    if valid? && status == "pending"
   end
     
     #binding.pry 
